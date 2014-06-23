@@ -1,0 +1,13 @@
+{
+    "name": "cubalider/money-doctrine-orm-bundle",
+    "type": "symfony-bundle",
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/framework-bundle": "2.4.*",
+        "cubalider/money-with-doctrine-orm": "0.1.*"
+    },
+    "autoload": {
+        "psr-0": { "Cubalider\\Bundle\\MoneyBundle": "" }
+    },
+    "target-dir": "Cubalider/Bundle/MoneyBundle"
+}
