@@ -7,6 +7,9 @@ use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\Definition;
 use Symfony\Component\DependencyInjection\Reference;
 
+/**
+ * @author Nabel Hernandez <nabelhm@cubalider.com>
+ */
 class DoctrineMappingPass implements CompilerPassInterface
 {
     /**
